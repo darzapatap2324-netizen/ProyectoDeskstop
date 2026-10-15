@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -88,6 +90,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icon-INICI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grafico-simple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personalizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busqueda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
