@@ -28,36 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabelPLANEA = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButtonInici = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonProyecto = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonTasques = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonResum = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonConfiguracio = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparatorUser = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -75,29 +66,23 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label23 = new System.Windows.Forms.Label();
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
@@ -105,57 +90,73 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelHoraIcon = new System.Windows.Forms.Label();
             this.labelFraseMotiva = new System.Windows.Forms.Label();
             this.labelSaludoUser = new System.Windows.Forms.Label();
             this.labelFechaCalendario = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripLabelPLANEA = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButtonInici = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonProyecto = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonTasques = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonResum = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonConfiguracio = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.label38 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,88 +182,15 @@
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripLabelPLANEA
-            // 
-            this.toolStripLabelPLANEA.Font = new System.Drawing.Font("Segoe UI", 40F);
-            this.toolStripLabelPLANEA.ForeColor = System.Drawing.Color.White;
-            this.toolStripLabelPLANEA.Image = global::ProyectoDeskstop.Properties.Resources.iconoAPP;
-            this.toolStripLabelPLANEA.Margin = new System.Windows.Forms.Padding(0, 1, 0, 10);
-            this.toolStripLabelPLANEA.Name = "toolStripLabelPLANEA";
-            this.toolStripLabelPLANEA.Size = new System.Drawing.Size(300, 72);
-            this.toolStripLabelPLANEA.Text = "PLANEA";
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(300, 6);
             // 
-            // toolStripButtonInici
-            // 
-            this.toolStripButtonInici.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButtonInici.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButtonInici.Image = global::ProyectoDeskstop.Properties.Resources.Icon_INICI;
-            this.toolStripButtonInici.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonInici.Margin = new System.Windows.Forms.Padding(0, 20, 0, 2);
-            this.toolStripButtonInici.Name = "toolStripButtonInici";
-            this.toolStripButtonInici.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButtonInici.Text = "Inici";
-            // 
-            // toolStripButtonProyecto
-            // 
-            this.toolStripButtonProyecto.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButtonProyecto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButtonProyecto.Image = global::ProyectoDeskstop.Properties.Resources.carpeta;
-            this.toolStripButtonProyecto.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonProyecto.Name = "toolStripButtonProyecto";
-            this.toolStripButtonProyecto.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButtonProyecto.Text = "Proyecto";
-            // 
-            // toolStripButtonTasques
-            // 
-            this.toolStripButtonTasques.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButtonTasques.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButtonTasques.Image = global::ProyectoDeskstop.Properties.Resources.checker;
-            this.toolStripButtonTasques.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonTasques.Name = "toolStripButtonTasques";
-            this.toolStripButtonTasques.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButtonTasques.Text = "Tasques";
-            // 
-            // toolStripButtonResum
-            // 
-            this.toolStripButtonResum.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButtonResum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButtonResum.Image = global::ProyectoDeskstop.Properties.Resources.grafico_simple;
-            this.toolStripButtonResum.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonResum.Margin = new System.Windows.Forms.Padding(0, 1, 0, 0);
-            this.toolStripButtonResum.Name = "toolStripButtonResum";
-            this.toolStripButtonResum.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButtonResum.Text = "Resum";
-            // 
-            // toolStripButtonConfiguracio
-            // 
-            this.toolStripButtonConfiguracio.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButtonConfiguracio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButtonConfiguracio.Image = global::ProyectoDeskstop.Properties.Resources.personalizar;
-            this.toolStripButtonConfiguracio.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonConfiguracio.Margin = new System.Windows.Forms.Padding(0, 1, 0, 400);
-            this.toolStripButtonConfiguracio.Name = "toolStripButtonConfiguracio";
-            this.toolStripButtonConfiguracio.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButtonConfiguracio.Text = "Configuracio";
-            // 
             // toolStripSeparatorUser
             // 
             this.toolStripSeparatorUser.Name = "toolStripSeparatorUser";
             this.toolStripSeparatorUser.Size = new System.Drawing.Size(300, 6);
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.Font = new System.Drawing.Font("Segoe UI", 25F);
-            this.toolStripButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
-            this.toolStripButton6.Image = global::ProyectoDeskstop.Properties.Resources.usuario;
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(300, 50);
-            this.toolStripButton6.Text = "Usuari";
             // 
             // toolStrip2
             // 
@@ -287,16 +215,6 @@
             this.toolStripLabel2.Size = new System.Drawing.Size(33, 22);
             this.toolStripLabel2.Text = "INICI";
             // 
-            // toolStripButton7
-            // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = global::ProyectoDeskstop.Properties.Resources.busqueda;
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Margin = new System.Windows.Forms.Padding(600, 1, 0, 2);
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton7.Text = "toolStripButton7";
-            // 
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(248)))), ((int)(((byte)(251)))));
@@ -305,37 +223,10 @@
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
             // 
-            // toolStripButton8
-            // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = global::ProyectoDeskstop.Properties.Resources.notificacion;
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Margin = new System.Windows.Forms.Padding(4, 1, 4, 2);
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton8.Text = "toolStripButton8";
-            // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton9
-            // 
-            this.toolStripButton9.Image = global::ProyectoDeskstop.Properties.Resources.usuario__1_;
-            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(60, 22);
-            this.toolStripButton9.Text = "Usuari";
-            // 
-            // toolStripSplitButton1
-            // 
-            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
-            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 22);
-            this.toolStripSplitButton1.Text = "toolStripSplitButton1";
             // 
             // groupBox1
             // 
@@ -359,6 +250,7 @@
             // 
             // panel8
             // 
+            this.panel8.Controls.Add(this.label38);
             this.panel8.Controls.Add(this.label37);
             this.panel8.Controls.Add(this.label36);
             this.panel8.Controls.Add(this.label35);
@@ -382,6 +274,52 @@
             this.panel8.Size = new System.Drawing.Size(1091, 158);
             this.panel8.TabIndex = 9;
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label37.Location = new System.Drawing.Point(276, 82);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(25, 25);
+            this.label37.TabIndex = 37;
+            this.label37.Text = "R";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(693, 88);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(90, 13);
+            this.label36.TabIndex = 36;
+            this.label36.Text = "Campanya d\'estiu";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(693, 71);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(136, 13);
+            this.label35.TabIndex = 35;
+            this.label35.Text = "Revisar copys de campaña";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(366, 88);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(74, 13);
+            this.label34.TabIndex = 34;
+            this.label34.Text = "App de clients";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(366, 71);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(188, 13);
+            this.label33.TabIndex = 33;
+            this.label33.Text = "Preparar componentes de navegación";
+            // 
             // label30
             // 
             this.label30.AutoSize = true;
@@ -390,36 +328,6 @@
             this.label30.Size = new System.Drawing.Size(59, 13);
             this.label30.TabIndex = 32;
             this.label30.Text = "28 jul 2025";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox14.Location = new System.Drawing.Point(696, 114);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 31;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox13.Location = new System.Drawing.Point(369, 109);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 30;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox12.Location = new System.Drawing.Point(39, 109);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 29;
-            this.pictureBox12.TabStop = false;
             // 
             // label29
             // 
@@ -436,7 +344,6 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(301, 82);
             this.button8.TabIndex = 11;
-            this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -445,7 +352,6 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(301, 82);
             this.button7.TabIndex = 10;
-            this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // label31
@@ -472,7 +378,6 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(301, 82);
             this.button6.TabIndex = 7;
-            this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -516,27 +421,27 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(55, 62);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series2.Legend = "Legend1";
-            series2.Name = "Series2";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series3.Legend = "Legend1";
-            series3.Name = "Series3";
-            this.chart1.Series.Add(series1);
-            this.chart1.Series.Add(series2);
-            this.chart1.Series.Add(series3);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series5.Legend = "Legend1";
+            series5.Name = "Series2";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series6.Legend = "Legend1";
+            series6.Name = "Series3";
+            this.chart1.Series.Add(series4);
+            this.chart1.Series.Add(series5);
+            this.chart1.Series.Add(series6);
             this.chart1.Size = new System.Drawing.Size(264, 208);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -628,16 +533,6 @@
     "--------------------------------------------------------------------------------" +
     "---------------------------------------";
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox10.Location = new System.Drawing.Point(513, 247);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 28;
-            this.pictureBox10.TabStop = false;
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -681,16 +576,6 @@
             this.label26.TabIndex = 23;
             this.label26.Text = "18 de 24 tareas completadas";
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
-            this.pictureBox11.Location = new System.Drawing.Point(12, 228);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(67, 50);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 22;
-            this.pictureBox11.TabStop = false;
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -699,16 +584,6 @@
             this.button4.Size = new System.Drawing.Size(610, 65);
             this.button4.TabIndex = 21;
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox8.Location = new System.Drawing.Point(512, 175);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
             // 
             // label19
             // 
@@ -753,16 +628,6 @@
             this.label22.TabIndex = 15;
             this.label22.Text = "18 de 24 tareas completadas";
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
-            this.pictureBox9.Location = new System.Drawing.Point(11, 156);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(67, 50);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 14;
-            this.pictureBox9.TabStop = false;
-            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.Control;
@@ -771,16 +636,6 @@
             this.button3.Size = new System.Drawing.Size(610, 65);
             this.button3.TabIndex = 13;
             this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
-            this.pictureBox7.Location = new System.Drawing.Point(512, 99);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(21, 18);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 12;
-            this.pictureBox7.TabStop = false;
             // 
             // label18
             // 
@@ -824,16 +679,6 @@
             this.label15.Size = new System.Drawing.Size(144, 13);
             this.label15.TabIndex = 7;
             this.label15.Text = "18 de 24 tareas completadas";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
-            this.pictureBox6.Location = new System.Drawing.Point(11, 80);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(67, 50);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
             // 
             // button1
             // 
@@ -901,16 +746,6 @@
             this.label8.TabIndex = 2;
             this.label8.Text = "Veure tasques completades";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
-            this.pictureBox5.Location = new System.Drawing.Point(17, 25);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 45);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
@@ -941,16 +776,6 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Veure feina activa";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
-            this.pictureBox4.Location = new System.Drawing.Point(17, 25);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(48, 45);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
             // 
             // label7
             // 
@@ -983,16 +808,6 @@
             this.label4.Text = "Veure tasques pendents";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
-            this.pictureBox3.Location = new System.Drawing.Point(17, 25);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(48, 45);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
@@ -1024,16 +839,6 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Tots els projectes";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
-            this.pictureBox2.Location = new System.Drawing.Point(17, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 45);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
@@ -1064,16 +869,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "126,5 h";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // labelHoraIcon
             // 
@@ -1115,51 +910,264 @@
             this.labelFechaCalendario.TabIndex = 0;
             this.labelFechaCalendario.Text = "label1";
             // 
-            // label33
+            // pictureBox14
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(366, 71);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(188, 13);
-            this.label33.TabIndex = 33;
-            this.label33.Text = "Preparar componentes de navegación";
+            this.pictureBox14.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox14.Location = new System.Drawing.Point(696, 114);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 31;
+            this.pictureBox14.TabStop = false;
             // 
-            // label34
+            // pictureBox13
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(366, 88);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(74, 13);
-            this.label34.TabIndex = 34;
-            this.label34.Text = "App de clients";
+            this.pictureBox13.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox13.Location = new System.Drawing.Point(369, 109);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 30;
+            this.pictureBox13.TabStop = false;
             // 
-            // label35
+            // pictureBox12
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(693, 71);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(136, 13);
-            this.label35.TabIndex = 35;
-            this.label35.Text = "Revisar copys de campaña";
+            this.pictureBox12.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox12.Location = new System.Drawing.Point(39, 109);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 29;
+            this.pictureBox12.TabStop = false;
             // 
-            // label36
+            // pictureBox10
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(693, 88);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(90, 13);
-            this.label36.TabIndex = 36;
-            this.label36.Text = "Campanya d\'estiu";
+            this.pictureBox10.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox10.Location = new System.Drawing.Point(513, 247);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 28;
+            this.pictureBox10.TabStop = false;
             // 
-            // label37
+            // pictureBox11
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label37.Location = new System.Drawing.Point(276, 82);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(25, 25);
-            this.label37.TabIndex = 37;
-            this.label37.Text = "R";
+            this.pictureBox11.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
+            this.pictureBox11.Location = new System.Drawing.Point(12, 228);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(67, 50);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 22;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox8.Location = new System.Drawing.Point(512, 175);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
+            this.pictureBox9.Location = new System.Drawing.Point(11, 156);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(67, 50);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 14;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::ProyectoDeskstop.Properties.Resources.calendario;
+            this.pictureBox7.Location = new System.Drawing.Point(512, 99);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(21, 18);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 12;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::ProyectoDeskstop.Properties.Resources.cuadrado_a;
+            this.pictureBox6.Location = new System.Drawing.Point(11, 80);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(67, 50);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 6;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
+            this.pictureBox5.Location = new System.Drawing.Point(17, 25);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(48, 45);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
+            this.pictureBox4.Location = new System.Drawing.Point(17, 25);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(48, 45);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
+            this.pictureBox3.Location = new System.Drawing.Point(17, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 45);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
+            this.pictureBox2.Location = new System.Drawing.Point(17, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProyectoDeskstop.Properties.Resources.reloj_tres;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // toolStripButton7
+            // 
+            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton7.Image = global::ProyectoDeskstop.Properties.Resources.busqueda;
+            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton7.Margin = new System.Windows.Forms.Padding(700, 1, 0, 2);
+            this.toolStripButton7.Name = "toolStripButton7";
+            this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton7.Text = "toolStripButton7";
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = global::ProyectoDeskstop.Properties.Resources.notificacion;
+            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton8.Margin = new System.Windows.Forms.Padding(4, 1, 4, 2);
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton8.Text = "toolStripButton8";
+            // 
+            // toolStripButton9
+            // 
+            this.toolStripButton9.Image = global::ProyectoDeskstop.Properties.Resources.usuario__1_;
+            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton9.Name = "toolStripButton9";
+            this.toolStripButton9.Size = new System.Drawing.Size(60, 22);
+            this.toolStripButton9.Text = "Usuari";
+            // 
+            // toolStripSplitButton1
+            // 
+            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
+            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripSplitButton1.Text = "toolStripSplitButton1";
+            // 
+            // toolStripLabelPLANEA
+            // 
+            this.toolStripLabelPLANEA.Font = new System.Drawing.Font("Segoe UI", 40F);
+            this.toolStripLabelPLANEA.ForeColor = System.Drawing.Color.White;
+            this.toolStripLabelPLANEA.Image = global::ProyectoDeskstop.Properties.Resources.iconoAPP;
+            this.toolStripLabelPLANEA.Margin = new System.Windows.Forms.Padding(0, 1, 0, 10);
+            this.toolStripLabelPLANEA.Name = "toolStripLabelPLANEA";
+            this.toolStripLabelPLANEA.Size = new System.Drawing.Size(300, 72);
+            this.toolStripLabelPLANEA.Text = "PLANEA";
+            // 
+            // toolStripButtonInici
+            // 
+            this.toolStripButtonInici.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButtonInici.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButtonInici.Image = global::ProyectoDeskstop.Properties.Resources.Icon_INICI;
+            this.toolStripButtonInici.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonInici.Margin = new System.Windows.Forms.Padding(0, 20, 0, 2);
+            this.toolStripButtonInici.Name = "toolStripButtonInici";
+            this.toolStripButtonInici.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButtonInici.Text = "Inici";
+            // 
+            // toolStripButtonProyecto
+            // 
+            this.toolStripButtonProyecto.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButtonProyecto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButtonProyecto.Image = global::ProyectoDeskstop.Properties.Resources.carpeta;
+            this.toolStripButtonProyecto.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonProyecto.Name = "toolStripButtonProyecto";
+            this.toolStripButtonProyecto.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButtonProyecto.Text = "Proyecto";
+            // 
+            // toolStripButtonTasques
+            // 
+            this.toolStripButtonTasques.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButtonTasques.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButtonTasques.Image = global::ProyectoDeskstop.Properties.Resources.checker;
+            this.toolStripButtonTasques.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonTasques.Name = "toolStripButtonTasques";
+            this.toolStripButtonTasques.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButtonTasques.Text = "Tasques";
+            // 
+            // toolStripButtonResum
+            // 
+            this.toolStripButtonResum.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButtonResum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButtonResum.Image = global::ProyectoDeskstop.Properties.Resources.grafico_simple;
+            this.toolStripButtonResum.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonResum.Margin = new System.Windows.Forms.Padding(0, 1, 0, 0);
+            this.toolStripButtonResum.Name = "toolStripButtonResum";
+            this.toolStripButtonResum.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButtonResum.Text = "Resum";
+            // 
+            // toolStripButtonConfiguracio
+            // 
+            this.toolStripButtonConfiguracio.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButtonConfiguracio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButtonConfiguracio.Image = global::ProyectoDeskstop.Properties.Resources.personalizar;
+            this.toolStripButtonConfiguracio.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonConfiguracio.Margin = new System.Windows.Forms.Padding(0, 1, 0, 400);
+            this.toolStripButtonConfiguracio.Name = "toolStripButtonConfiguracio";
+            this.toolStripButtonConfiguracio.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButtonConfiguracio.Text = "Configuracio";
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.Font = new System.Drawing.Font("Segoe UI", 25F);
+            this.toolStripButton6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(200)))), ((int)(((byte)(221)))));
+            this.toolStripButton6.Image = global::ProyectoDeskstop.Properties.Resources.usuario;
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Size = new System.Drawing.Size(300, 50);
+            this.toolStripButton6.Text = "Usuari";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(66, 114);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(28, 13);
+            this.label38.TabIndex = 38;
+            this.label38.Text = "Avui";
             // 
             // Form1
             // 
@@ -1179,29 +1187,29 @@
             this.groupBox1.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1307,5 +1315,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label38;
     }
 }
